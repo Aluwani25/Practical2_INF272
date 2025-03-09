@@ -1,0 +1,90 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.navbar{
+    background:black;
+    color: white;
+    padding: 10px 0;
+}
+.navbar .container{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.navigat{
+    margin:0;
+    padding:0;
+    display:flex;
+    list-style-type:none;
+
+}
+
+.navItem{
+    margin-right: 15px;
+}
+.navLink{
+    text-decoration:none;
+    color:white;
+    font-size: 16px;
+    padding: 8px 12px;
+}
+.navLink:hover{
+    background-color:yellow;
+    border-radius:5px;
+}
+
+#main {
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 0 4px 4px 4px;
+}
+
+/*----menu settings*/
+#menu {
+    padding: 0px;
+    position: relative;
+    margin: 0px;
+}
+
+    #menu li {
+        display: inline;
+    }
+
+        #menu li a {
+            background-color: #e8eef4;
+            padding: 10px 20px;
+            text-decoration: none;
+            line-height: 2.8em;
+            border-radius: 4px 4px 0 0;
+        }
+
+            #menu li a:hover {
+                background-color: #ffffff;
+            }
+/*---- form settings*/
+
+form {
+    padding-left: 12px;
+}
+
+    form label {
+        display: block;
+        padding: 4px;
+    }
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
