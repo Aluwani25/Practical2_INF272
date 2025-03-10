@@ -74,7 +74,8 @@
     .navLink:active{
         background-color:red;
     }
-@media screen and (max-width: 600px){
+   /* this css part makes sure the content gets resized whenever the page is also resized mainly for flexibility purposes*/ 
+@media screen and (max-width: 600px){ 
     .navigat{
         justify-content:flex-start;
     }
@@ -86,6 +87,7 @@
     max-width: 50px;
     max-height: 50px;
 }
+
 img:hover{
     transform:scaleX(-1);
 
