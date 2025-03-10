@@ -1,4 +1,5 @@
 ﻿body {
+    background-color:lightblue;
 }
 .navbar {
     background: black;
@@ -83,4 +84,11 @@
     height:100%;
     max-width: 50px;
     max-height: 50px;
+}
+img:hover{
+    transform:scaleX(-1);
+
+}
+.wholeBox{
+    border:3px solid green;
 }
